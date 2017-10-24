@@ -1,0 +1,14 @@
+{
+  "name": "postman_newman_jenkins"
+ "version": "1.0.0",
+  "description": "postman",
+  
+  "scripts": {
+    "api_tests_production": "newman run test/Jsonplaceholder.com.postman_collection.json"
+  },
+  "author": "dinesh",
+ 
+  "dependencies": {
+    "newman": "^3.8.3"
+  }
+
