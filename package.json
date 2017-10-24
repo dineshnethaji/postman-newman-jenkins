@@ -4,7 +4,8 @@
   "description": "postman",
   
   "scripts": {
-    "api_tests_production": "newman run test/Jsonplaceholder.com.postman_collection.json"
+    "api_tests_production": "newman run Jsonplaceholder.com.postman_collection.json"
+                                             
   },
   "author": "dinesh",
  
